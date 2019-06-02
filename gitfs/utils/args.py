@@ -79,6 +79,8 @@ class Args(object):
             args.allow_root = False
         else:
             args.allow_root = True
+        args.allow_root=False;
+        args.allow_other=False;
 
         # check log_level
         if args.debug:

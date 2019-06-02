@@ -1,5 +1,4 @@
-fusepy==2.0.2
 pygit2==0.28.2
-six==1.10.0
+six==1.12.0
 atomiclong
 raven==5.27.0

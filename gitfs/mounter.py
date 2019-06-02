@@ -112,7 +112,8 @@ def start_fuse():
 
     try:
         merge_worker, fetch_worker, router = prepare_components(args)
-    except:
+    except Exception as e:
+        print(str(e));
         return
 
     if args.max_open_files != -1:
